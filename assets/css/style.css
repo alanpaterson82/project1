@@ -8,7 +8,7 @@
 
 body {
     font-family: Fjalla One, sans-serif;
-    font-weight: 250;
+    font-weight: 200;
     color:mediumblue;
 }
 
@@ -23,7 +23,7 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 100px;
+    font-size: 280%;
 }
 
 /* navigation links */
