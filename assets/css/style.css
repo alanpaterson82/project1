@@ -21,12 +21,21 @@ h1, h2 {
     color:mediumblue;
 }
 
+#logo {
+    float: left;
+    font-size: 100px;
+}
+
 /* navigation links */
 
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
     }
+
+#menu, #logo {
+    line-height: 75px;
+}
 
 #menu li {
     float: right;
@@ -36,17 +45,29 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
-    color:dodgerblue;
+    color: inherit;
 }
 
-menu a:hover {
+#menu a:hover {
     border-bottom: 1px solid hsl(241, 87%, 51%)
+}
+
+.active {
+    border-bottom: 1px solid hsl(241, 87%, 51%);
 }
 
 /* hero image */
 
-#hero-image {
-    height: 500px;
+#hero-outer {
+    height: 600px;
     width: 100%;
-    background: url('../images/hero-image-project-1.jpeg')
+    overflow: hidden;
 }
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background: url('../images/hero-image-project-1.webp') no-repeat center center;
+}
+
