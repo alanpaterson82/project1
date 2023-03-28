@@ -72,3 +72,20 @@ h1, h2 {
     background: url('../images/hero-image-project-1.webp') no-repeat center center;
 }
 
+/* benefits */
+
+#benefits {
+    height: 250px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
