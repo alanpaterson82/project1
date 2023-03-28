@@ -9,7 +9,7 @@
 body {
     font-family: Fjalla One, sans-serif;
     font-weight: 200;
-    color:mediumblue;
+    color: black;
 }
 
 /* headings and logo */
@@ -18,7 +18,7 @@ h1, h2 {
     font-family: Fjalla One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color:mediumblue;
+    color: rgb(56, 52, 52);
 }
 
 #logo {
@@ -113,9 +113,24 @@ hr {
 }
 
 .right-about-heading h2 {
-    text-align: right;
+    text-align: center;
+}
+
+.left-about-heading h2 {
+    text-align: center;
 }
 
 .right-about-heading p {
-    text-align: right;
+    text-align: center;
 }
+
+.left-about-heading p {
+    text-align: center;
+}
+
+#hello {
+    text-align: center;
+    margin: 0 0;
+    font-size: 250%
+}
+
