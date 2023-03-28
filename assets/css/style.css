@@ -163,3 +163,24 @@ hr {
 #class-times h2 {
     color: #fafafa
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 1%;
+    padding: 2%;
+    color: #3a3a3a
+}
