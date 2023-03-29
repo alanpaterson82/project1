@@ -184,3 +184,17 @@ footer {
     padding: 2%;
     color: #3a3a3a
 }
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+    #benefits {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+#hello {
+    padding: 30px 0;
+}
+}
