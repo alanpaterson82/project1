@@ -215,5 +215,17 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+.left-about-heading, .right-about-heading {
+    width: inherit;
 }
 
+.left-about-heading h2, .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.left-about-heading p, .right-about-heading p {
+    text-align: center;
+    }
+}
