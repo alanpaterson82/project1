@@ -260,4 +260,16 @@ footer {
         .right-about-heading p {
             text-align: center;
         }
+
+    /* gallery */
+
+    #photos {
+        clear: both;
+        line-height: 0;
+        column-count: 2;
+    }
+
+    #photos > img {
+        width: 100%;
+    }
     }
