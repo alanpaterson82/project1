@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    }
+}
 
 body {
     font-family: Fjalla One, sans-serif;
@@ -14,7 +14,8 @@ body {
 
 /* headings and logo */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Fjalla One, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -32,9 +33,10 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
-    }
+}
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -63,11 +65,12 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    
+
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#cover-text,
+#cover-text h2 {
     color: lightgray;
 }
 
@@ -92,7 +95,7 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(255,255,255, .3);
+    background-color: rgba(255, 255, 255, .3);
 
     bottom: 30px;
     right: 1500px;
@@ -199,7 +202,7 @@ footer {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -219,38 +222,42 @@ footer {
         margin: 0 auto;
     }
 
-#hello {
-    padding: 30px 0;
-    margin: 0;
-}
+    #hello {
+        padding: 30px 0;
+        margin: 0;
+    }
 
-#left-about, #right-about {
-    width: 100%;
-    float: left;
-    padding: 0;
-}
-
-/* for phone screens */
-
-@media screen and (max-width: 950px) {
-    #menu {
-        clear: left;
+    #left-about,
+    #right-about {
+        width: 100%;
         float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+        padding: 0;
     }
 
-.left-about-heading, .right-about-heading {
-    width: inherit;
-}
+    /* for phone screens */
 
-.left-about-heading h2, .right-about-heading h2 {
-    width: 100%;
-    text-align: center;
-}
+    @media screen and (max-width: 950px) {
+        #menu {
+            clear: left;
+            float: left;
+            margin-left: 30px;
+            margin-bottom: 20px;
+            line-height: 25px;
+        }
 
-.left-about-heading p, .right-about-heading p {
-    text-align: center;
+        .left-about-heading,
+        .right-about-heading {
+            width: inherit;
+        }
+
+        .left-about-heading h2,
+        .right-about-heading h2 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .left-about-heading p,
+        .right-about-heading p {
+            text-align: center;
+        }
     }
-}
