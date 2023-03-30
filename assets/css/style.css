@@ -216,7 +216,8 @@ footer {
 /* media queries */
 
 @media screen and (max-width: 1200px) {
-    #benefits {
+
+        #benefits {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -245,6 +246,10 @@ footer {
             line-height: 25px;
         }
 
+        #cover-text {
+            left: 0;
+        }
+
         .left-about-heading,
         .right-about-heading {
             width: inherit;
@@ -260,6 +265,17 @@ footer {
         .right-about-heading p {
             text-align: center;
         }
+
+    #photos {
+        column-count: 2;
+    }
+
+    @media screen and (max-width: 800px) {
+    #photos {
+        column-count: 1;
+        }    
+    }
+
 
     /* gallery */
 
