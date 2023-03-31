@@ -1,19 +1,56 @@
 # Yoga For Men
 
+I have created a website promoting new Yoga classes for men in the town of Millport on the Isle Of Cumbrae, North Ayrshire. It provides information on the class times and has images relating to the yoga practice. It's targeted toward men who are looking to join in with the classes, or those who are just showing an initial interest in this form of exercise as it also provides the benefits that come with it.
+
+<br>
+
 ### A live demo of this project can be found at [Yoga For Men](https://alanpaterson82.github.io/project1/)
 
 <br>
 
-This is a website promoting new Yoga classes for men in the town of Millport on the Isle Of Cumbrae. It provides information on the class times and has images relating to the yoga practice. It's targeted toward men who are looking to join in with the classes, or those who are just showing an initial interest in this form of exercise as it also provides the benefits that come with it.
+![Am I Responsive?](/assets/images/Am%20I%20Responsive%20Result.jpg)
 
 <br>
 
 # Features
 ### Navigation Bar
+- The name of the club 'Yoga For Men' is shown in the top left corner of the landing page, with navigation links to the benefits section, class times and the photo gallery in the top right corner
+
+<br>
+
+![Navigation Bar](/assets/images/navigation-bar.jpg)
+
 ### Landing Page Image
+
+- The landing page image is that of a man in a yoga pose promoting relaxation and calm
+
+![Hero Image](/assets/images/hero-image.jpeg)
+
+<br>
+
 ### Benefits
+
+- For those looking to start yoga, or to learn how it could improve their health and wellbeing, there is an area that outlines the benefits of taking it up as a hobby
+
+<br>
+
+![Benefits](/assets/images/benefits.jpg)
+
+<br>
+
 ### Class Times
-### Footer (social media links)
+
+- The locations, dates and times of each class are included in an easy to read, clear manner
+
+<br>
+
+![Class Times](/assets/images/class-times.jpg)
+
+### Footer
+
+- The footer has been included to provide links to all of the relevant social media pages, with icons for each to increase ease of use. The icon colours used are in line with the rest of the site
+
+![Footer](/assets/images/footer-social-media-links.jpg)
 ### Gallery
 ### Features Left To Implement
 - Sign up page/ form
