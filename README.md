@@ -110,9 +110,9 @@ Time constraints meant that I was regrettably  unable to correct the below, but 
 
 ## Validator Testing
 
-<br>
+### CSS
 
-- There are two different CSS validation results, which appears to be a sparse as "family names containing whitespace should be quoted" (from https://validator.w3.org/), however, I have removed and re-added quotation marks to the font-family that was imported and the same error arises.
+- There are two different CSS validation results, which appears to be a sparse error as "family names containing whitespace should be quoted" (from https://validator.w3.org/), however, I have removed and re-added quotation marks to the font-family that was imported and the same error arises.
 
 <br>
 
@@ -122,17 +122,46 @@ Time constraints meant that I was regrettably  unable to correct the below, but 
 
 ![W3C Validator Result](/assets/images/CSS%20Validator%20Result%201.jpg)
 
+<br>
 
+### HTML
+- No errors found
 
-## Unfixed Bugs
+<br>
+
+![HTML Validator Result](/assets/images/HTML%20W3C%20Validator%20Result.jpg)
+
+<br>
+
+## Accessibility
+
+Lighthouse in DevTools provided the below results, with accessibility at 100%
+
+<br>
+
+![Lighthouse](/assets/images/Lighthouse%20Results.jpg)
+
 
 ## Deployment
-##### The process you ent through to deploy the project to GitHub pages
+
+<br>
+
+I used GitHub to deploy the site using the steps below
+
+- Click on the relevant repository
+- Click 'settings'
+- From the dropdown, change branch from 'None' to 'main'
+- Click 'save'
+- When the page is refreshed the link is provided to be used for deployment
+
+<br>
 
 ## Credits
 
+<br>
+
 - Icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - [Pexels](pexels.com) was used for all images in the gallery
-- A significant portion of my code can be attributed to the Love Running project e.g use of .left-about headings, but values have been amended to demonstrate capability and 'tweak' my site. All other work is my own.
+- A significant portion of my code can be attributed to the structure of the Love Running project e.g use of but values have been amended to demonstrate my capability (where my knowledge allowed). All other work is my own and potential copying of any code has been completely unintentional
 
 
