@@ -1,18 +1,27 @@
 # Yoga For Men
 
-# Features (including scrreenshots)
+[Yoga For Men](https://alanpaterson82.github.io/project1/)
+
+# Features (including screenshots)
+### Navigation Bar
+### Landing Page Image
+### Benefits
+
+![Header]()
 
 ## Existing Features
 
 ## Technologies Used
 
-#### CSS
-#### HTML
-
-## Credits
+1. CSS
+2. HTML
 
 ## Testing
 
 ## Deployment
+
+## Credits
+
+## Media
 
 
