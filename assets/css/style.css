@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: "Fjalla One",sans-serif;
+    font-family: "Fjalla One", sans-serif;
     font-weight: 200;
     color: black;
 }
@@ -16,7 +16,7 @@ body {
 
 h1,
 h2 {
-    font-family: "Fjalla One",sans-serif;
+    font-family: "Fjalla One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgb(56, 52, 52);
@@ -85,7 +85,7 @@ h2 {
 
 #cover-text {
     font-size: 130%;
-    font-family: "Fjalla One",sans-serif;
+    font-family: "Fjalla One", sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
 
@@ -217,7 +217,7 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
-        #benefits {
+    #benefits {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -266,27 +266,27 @@ footer {
             text-align: center;
         }
 
-    #photos {
-        column-count: 2;
+        #photos {
+            column-count: 2;
+        }
+
+        @media screen and (max-width: 800px) {
+            #photos {
+                column-count: 1;
+            }
+        }
+
+
+        /* gallery */
+
+        #photos {
+            clear: both;
+            line-height: 0;
+            column-count: 2;
+            column-gap: 0;
+        }
+
+        #photos>img {
+            width: 100%;
+        }
     }
-
-    @media screen and (max-width: 800px) {
-    #photos {
-        column-count: 1;
-        }    
-    }
-
-
-    /* gallery */
-
-    #photos {
-        clear: both;
-        line-height: 0;
-        column-count: 2;
-        column-gap: 0;
-    }
-
-    #photos > img {
-        width: 100%;
-    }
-}
